@@ -329,11 +329,11 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: rgb(7, 5, 44);
-  height: 70px;
+  height: 90px;
 }
 #signin .signintext h4 {
   color: bisque;
-  margin-top: 0.6rem;
+  margin-top: 1rem;
   margin-left: 0.6rem;
 }
 #signin .signintext p {
@@ -371,6 +371,82 @@ footer .icon {
   color: azure;
   font-size: 2rem;
   cursor: pointer;
+}
+#next-page {
+  text-align: center;
+  background-color: rgb(6, 5, 27);
+}
+#next-page a {
+  text-decoration: none;
+  background-color: rgb(30, 96, 15);
+  color: azure;
+  font-size: 1rem;
+  padding: 15px 20px;
+  border-radius: 0.6rem ;
+  font-weight: 600;
+
+  
+
+}
+#productdetail{
+  background-color: rgb(6, 5, 27);
+  display: flex;
+  
+  
+
+  
+  
+}
+#productdetail .single-img {
+  width: 40%;
+  margin-right: 50px;
+  
+ 
+
+}
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+
+  
+  
+  
+}
+.small-img-col {
+  flex-basis: 32%;
+  cursor: pointer;
+}
+#productdetail .single-img-detail {
+  width: 50%;
+  padding-top: 30px;
+  
+}
+#productdetail .single-img-detail h4 {
+  padding: 40px 0 20px 0;
+
+}
+#productdetail .single-img-detail select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#productdetail .single-img-detail input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+
+
+}
+#productdetail .single-img-detail button{
+  background: rgb(67, 93, 15);
+  color: azure;
+  display: block;
+  padding: 5px 10px;
+  
+  
 }
 
 
